@@ -1,3 +1,6 @@
+import { FOOTERLINK_1, FOOTERLINK_2 } from "./constants";
+import FooterRow from "./src/FooterRow";
+
 function App() {
     return (
       <div className="App">
@@ -9,6 +12,7 @@ function App() {
                 Edit @ <code>src/App.tsx</code> 
             </p>
         </header>
+        <FooterRow urls={FOOTERLINK_2} />
       </div>
     );
   }

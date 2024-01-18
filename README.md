@@ -1,3 +1,3 @@
-# react-template
+# footer-template
 
 package.json = npm install
