@@ -1,5 +1,6 @@
 import { FOOTERLINK_1, FOOTERLINK_2 } from "./constants";
 import FooterRow from "./src/FooterRow";
+import FooterCol from "./src/FooterCol";
 
 function App() {
     return (
@@ -13,6 +14,8 @@ function App() {
             </p>
         </header>
         <FooterRow urls={FOOTERLINK_2} />
+        <hr />
+        <FooterCol urls={FOOTERLINK_1} />
       </div>
     );
   }
