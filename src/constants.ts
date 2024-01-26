@@ -25,7 +25,7 @@ export const
                     {name:'ThirdLink', url:''}]
         }
     ],
-    FOOTERLINK_2 = [        
+    FOOTERLINK = [        
         {
             name:'FirstCol',
             url:'/'

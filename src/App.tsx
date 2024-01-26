@@ -1,5 +1,5 @@
-import { FOOTERLINK_1, FOOTERLINK_2 } from "./constants";
-import FooterRow from "./src/FooterRow";
+import { FOOTERLINK_1 } from "./constants";
+import Footer from "./src/FooterRow";
 import FooterCol from "./src/FooterCol";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
                 Edit @ <code>src/App.tsx</code> 
             </p>
         </header>
-        <FooterRow urls={FOOTERLINK_2} />
+        <Footer css=""/>
         <hr />
         <FooterCol urls={FOOTERLINK_1} />
       </div>
